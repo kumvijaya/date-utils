@@ -20,7 +20,7 @@ parser.add_argument(
 args = parser.parse_args()
 input_date = args.date
 
-def is_future_date(input_date):
+def is_future(input_date):
     """Checks whether the given date is future date
 
     Args:
@@ -35,4 +35,4 @@ def is_future_date(input_date):
     today = datetime.date.today()
     return date > today
 
-print (is_future_date(input_date))
+print (is_future(input_date))
