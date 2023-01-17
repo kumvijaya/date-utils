@@ -7,7 +7,6 @@ date -- The date to check. Provide the date in format yyyy-MM-dd. e.g. 2023-01-1
 import datetime
 import argparse
 
-
 parser = argparse.ArgumentParser(
     description='Checks the given date with current date and returns true if it is future date'
 )
@@ -20,7 +19,7 @@ parser.add_argument(
 args = parser.parse_args()
 input_date = args.date
 
-def is_future_date(input_date):
+def is_future(input_date):
     """Checks whether the given date is future date
 
     Args:
@@ -35,4 +34,4 @@ def is_future_date(input_date):
     today = datetime.date.today()
     return date > today
 
-print (is_future_date(input_date))
+print (is_future(input_date))
