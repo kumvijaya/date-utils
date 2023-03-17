@@ -1,6 +1,6 @@
 # Date Utils
 
-This repository keeps the util scripts to handle dates in python.
+This repository keeps the util scripts to handle dates in python
 
 ## Check given date is elapsed
 This [CLI utility//snippet](https://github.com/kumvijaya/date-utils/blob/main/is_elapsed_date.py) can be used to check given date is elapsed/past.
